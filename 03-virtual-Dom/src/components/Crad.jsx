@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, Heart, Share } from "lucide-react";
 
 const Crad = ({ product, price, oldPrice, url }) => {
   const [count, setCount] = useState(1);
-  const [color, setColor] = useState("gray");
+  const [color, setColor] = useState("#9c9797");
 
   return (
     <div className=" h-full w-full  m-0 p-0" style={{ backgroundColor: color }}>
