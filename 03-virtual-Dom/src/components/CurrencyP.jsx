@@ -28,7 +28,7 @@ const CurrencyP = () => {
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
           backgroundImage:
-            "https://cdn.svgator.com/images/2021/10/solar-system-animation.svg",
+            "https://www.fisdom.com/wp-content/uploads/2023/05/currency-trading-_1_.webp",
         }}
       >
         <div className="">

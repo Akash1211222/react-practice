@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 // import ProductPage from "./pages/ProductPage.jsx";
 // import PassGenPage from "./pages/PassGenPage.jsx";
-// import CurrencyP from "./components/CurrencyP.jsx";
+import CurrencyP from "./components/CurrencyP.jsx";
 import Header from "./components/Header/Header.jsx";
 import Home from "./components/Home/Home.jsx";
 import Footer from "./components/Footer/Footer.jsx";
@@ -18,6 +18,7 @@ import Contact from "./components/Contact/Contact.jsx";
 import Pass from "./components/Pass.jsx";
 import User from "./components/User/User.jsx";
 import Github from "./components/Github/Github.jsx";
+
 import ProductPage from "./pages/ProductPage.jsx";
 import { githubLoader } from "./components/Github/Github.jsx";
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="passwordgen" element={<Pass />} />
         <Route path="user/:userid" element={<User />} />
         <Route path="product" element={<ProductPage />} />
+        <Route path="currency" element={<CurrencyP />} />
         <Route loader={githubLoader} path="/github" element={<Github />} />
       </Route>
     )
