@@ -27,7 +27,8 @@ const CurrencyP = () => {
       <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-          backgroundColor: "#9c9797",
+          backgroundImage:
+            "https://cdn.svgator.com/images/2021/10/solar-system-animation.svg",
         }}
       >
         <div className="">
