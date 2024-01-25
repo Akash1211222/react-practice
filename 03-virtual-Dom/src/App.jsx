@@ -21,6 +21,7 @@ import Github from "./components/Github/Github.jsx";
 
 import ProductPage from "./pages/ProductPage.jsx";
 import { githubLoader } from "./components/Github/Github.jsx";
+import ContexDemoPage from "./pages/ContexDemoPage.jsx";
 
 function App() {
   const router = createBrowserRouter(
@@ -33,6 +34,7 @@ function App() {
         <Route path="user/:userid" element={<User />} />
         <Route path="product" element={<ProductPage />} />
         <Route path="currency" element={<CurrencyP />} />
+        <Route path="login" element={<ContexDemoPage />} />
         <Route loader={githubLoader} path="/github" element={<Github />} />
       </Route>
     )
@@ -41,9 +43,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      {/* <PassGenPage />
-      <CurrencyP />
-      <ProductPage /> */}
     </>
   );
 }
